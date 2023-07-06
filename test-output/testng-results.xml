@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-24T18:12:54 IST" name="Failed suite [Suite]" finished-at="2023-05-24T18:12:58 IST" duration-ms="3842">
+    <groups>
+    </groups>
+    <test started-at="2023-05-24T18:12:54 IST" name="Test(failed)" finished-at="2023-05-24T18:12:58 IST" duration-ms="3842">
+      <class name="TestNg.testcase2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestNg.testcase2@5be6e01c]" started-at="2023-05-24T18:12:54 IST" name="openApp" finished-at="2023-05-24T18:12:56 IST" duration-ms="2385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2()[pri:0, instance:TestNg.testcase2@5be6e01c]" started-at="2023-05-24T18:12:56 IST" name="tc2" finished-at="2023-05-24T18:12:58 IST" duration-ms="1317" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:TestNg.testcase2@5be6e01c]" started-at="2023-05-24T18:12:58 IST" name="closeapp" finished-at="2023-05-24T18:12:58 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestNg.testcase2 -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
